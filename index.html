@@ -464,7 +464,7 @@ function togglePausa() {
         btn.innerHTML = '⏸ PAUSA'; siguiente();
     } else if (!pausado) {
         pausado = true; clearTimeout(timerSig); window.speechSynthesis.cancel();
-        btn.innerHTML = '▶ Continuar';
+        btn.innerHTML = '▶ Seguir';
     } else {
         pausado = false; btn.innerHTML = '⏸ PAUSA'; siguiente();
     }
